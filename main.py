@@ -73,7 +73,7 @@ def home_page():
             st.image(image_url2, caption='')
 
         # Adding the third image in an expander
-        with st.expander("Symptoms of Alzheimer"):
+        with st.expander("Symptoms of Mental Health"):
             image_url3 = 'https://64.media.tumblr.com/350fbdc722bf2548daccf0ac43e14aa3/2613e0dcfd360416-d7/s2048x3072/61bffa955936a27760b29a5ba21d307109847bec.pnj'
             st.image(image_url3, caption='')
 
