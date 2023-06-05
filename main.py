@@ -54,7 +54,7 @@ def home_page():
             unsafe_allow_html=True)
 
         # Adding the first image with transition effect
-        image_url1 = 'https://64.media.tumblr.com/61d2fcd47402a4547db13ba4de37307f/866f6b593c84ef90-e7/s2048x3072/da59b1c0f86371f0e12fe25274dede3bd5de5b8e.pnj'
+        image_url1 = 'https://64.media.tumblr.com/504194d75f8a2a2e66ccec48410b9c8e/184fada633637efa-a3/s640x960/0e7cbf54834b5e7e5d59058c8e78dbd53aadc829.pnj'
         st.markdown(
             f'<div style="display: flex; justify-content: center;"><div class="image-transition"><img src="{image_url1}" alt="Image normal brain and Alzheimer" style="max-width: 700px;"></div></div>',
             unsafe_allow_html=True)
