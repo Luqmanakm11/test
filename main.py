@@ -173,7 +173,7 @@ def prediction_page():
                 test = test.loc[:, test.columns != 'Seek_Treatment']
                 test.loc[len(test)] = df.loc[0]
 
-                model = joblib.load('C:\\Users\\User\\PycharmProjects\\IDSAssignment\\venv\\mental_health_in_tech-main\\model1.pkl')
+                model = joblib.load('model1.pkl')
                 scaler = joblib.load('C:\\Users\\User\\PycharmProjects\\IDSAssignment\\venv\\mental_health_in_tech-main\\scaler1.pkl')
 
                 for column in test.columns:
