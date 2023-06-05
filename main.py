@@ -288,7 +288,7 @@ def aboutus_page():
         unsafe_allow_html=True,
     )
 
-    st.markdown('<div class="centered"><h1>Get To Know the Masterminds</h1></div>', unsafe_allow_html=True)
+    st.markdown('<div class="center"><h1>Get To Know the Masterminds</h1></div>', unsafe_allow_html=True)
     # Adding the first image
     image_url1 = 'https://64.media.tumblr.com/850c77a6bfc13ebc3131c08a5fdc9c76/4f3fd61635fc6764-11/s640x960/bffe6ac496b5fcb88333128d30ff4ebd6dbf8ebc.pnj'
     st.markdown(
