@@ -89,7 +89,7 @@ def home_page():
 
         # Adding the second image to the second column
         with col2:
-                image_url5 = 'https://64.media.tumblr.com/aa6964678de7718c73c258bda0e3a0ea/2613e0dcfd360416-f5/s2048x3072/1edaff2a052fc42bb651ebaad26b74e25131d0d8.pnj'
+                image_url5 = 'https://64.media.tumblr.com/504194d75f8a2a2e66ccec48410b9c8e/184fada633637efa-a3/s640x960/0e7cbf54834b5e7e5d59058c8e78dbd53aadc829.pnj'
                 st.image(image_url5, caption='')
 
 
