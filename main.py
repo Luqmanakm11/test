@@ -174,13 +174,13 @@ def prediction_page():
                 test.loc[len(test)] = df.loc[0]
 
                 model = joblib.load('model1.pkl')
-                scaler = joblib.load('C:\\Users\\User\\PycharmProjects\\IDSAssignment\\venv\\mental_health_in_tech-main\\scaler1.pkl')
+                scaler = joblib.load('scaler1.pkl')
 
                 for column in test.columns:
                     if column == 'Age' or column == 'Seek_Treatment':
                         continue
                     else:
-                        encoder = joblib.load('C:\\Users\\User\\PycharmProjects\\IDSAssignment\\venv\\mental_health_in_tech-main\\'f'{column}_encoder.pkl')
+                        encoder = joblib.load(f'{column}_encoder.pkl')
                         test[column] = encoder.fit_transform(test[column])
 
                 test[['Age']] = scaler.transform(test[['Age']])
