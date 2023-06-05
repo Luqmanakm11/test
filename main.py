@@ -292,7 +292,7 @@ def aboutus_page():
     # Adding the first image
     image_url1 = 'https://64.media.tumblr.com/850c77a6bfc13ebc3131c08a5fdc9c76/4f3fd61635fc6764-11/s640x960/bffe6ac496b5fcb88333128d30ff4ebd6dbf8ebc.pnj'
     st.markdown(
-        f'<div style="display: flex; justify-content: center;"><div class="image-transition"><img src="{image_url1}" alt="" style="max-width: 700px;"></div></div>',
+        f'<div style="display: flex; justify-content: center;"><div class="image-transition"><img src="{image_url1}" alt="" style="max-width: 950px;"></div></div>',
         unsafe_allow_html=True)
 
     st.header("", anchor="center")
